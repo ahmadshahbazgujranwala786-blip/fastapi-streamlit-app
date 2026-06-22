@@ -156,7 +156,7 @@ def get_current_user(token : str = Depends(oauth2_scheme) , db : Session = Depen
         raise credentials_exception
   return user
 
-
+# This is the signup endpoint of backend
 
 @app.post("/api/v1/auth/signup", status_code= 201)
 def signup(user_data: UserSignup, db: Session = Depends(get_db)):
