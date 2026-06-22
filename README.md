@@ -1,0 +1,1 @@
+Hello, I am working on a login project using fastapi in the Backend and streamlit in the Frontend. The problem is that whenever I enter the data in the streamlit, it displays an error "Error: 405, Method not allowed", why this occurs? Note: I am using ngrok token to make them public.
